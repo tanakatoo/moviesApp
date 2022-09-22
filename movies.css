@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 1.5rem;
+}
+
+form{
+    font-size: 1.4rem;
+}
+
+input[type="text"]{
+    margin: 0.2rem;
+    font-size: 1.3rem;
+}
+
+button{
+    font-size: 1.3rem;
+    padding: 0.3rem 2.4rem;
+    border-radius:0.5rem;
+    cursor:pointer;
+}
+
+.formatting{
+    text-align: center;
+}
+
+.resultsDiv{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 3rem;
+}
+
+table{
+    font-size: 1.4rem;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table td{
+    padding: 0.5rem;
+}
+
+table th{
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    border-bottom: 2px solid #666;
+}
+
+table tr th:first-child{
+    border-bottom: 2px solid #666;  
+}
+table tr td{
+     border-bottom: 1px solid #666;  
+}
+
+.error{
+    font-size: 1.2rem;
+    color: red;
+    margin: 1rem;
+}
+
+.arrow{
+    margin: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.removeBtn{
+    margin-right: 1rem;
+    padding: 0.3rem 0.4rem;
+}
